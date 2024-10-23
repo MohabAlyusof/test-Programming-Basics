@@ -1,6 +1,4 @@
-function powerOf(num) {
-    return Math.pow(num, num);
-}
+const powerOf = (num) => Math.pow(num, num);
 
 // 2 to the power of 2
 console.log(powerOf(2)); // 4 
